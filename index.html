@@ -8,8 +8,7 @@
     </head>
     <body>
         
-        <nav>
-            <div id="nav_bar">
+        <nav id="nav_bar">
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
                 <a href="#">
@@ -18,39 +17,45 @@
                 <!-- <a href="#">
                     <img id="profile_pic" alt="Profile" src="images/U320ae5afe1ec4980bb743527a664a067y.jpg">
                 </a> -->
-            </div>
         </nav>
 
-        <img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        
-        <label for="search_bar">
-            <img alt="Search Bar" src="images/outline_search_black_24dp.png">
-            <input type="text" id="search_bar" name="search_bar">
-        </label>
-        
-        <label for="search_button">
-            <input type="button" value="Search Google" id="search_button" name="search_button">
-        </label>
-
-        <label for="luck_button">
-            <input type="button" value="Feeling Lucky!" id="luck_button" name="luck_button">
-        </label>
-        
-        <p>Google offered in: Arabic</p>
-
-
-        <footer>
-            <p>Jordan</p>
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
-
-            <a href="#">Carbon Neutral Since 2007</a>
+        <div id="main_content">
+            <img id="logo" alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+            <label for="search_bar">
+                <!-- <img alt="Search Bar" src="images/outline_search_black_24dp.png"> -->
+                <input type="text" id="search_bar" name="search_bar">
+            </label>
+           
+            <div id="buttons">
+                <label for="search_button">
+                    <input type="button" value="Search Google" id="search_button" name="search_button">
+                </label>
+
+                <label for="luck_button">
+                    <input type="button" value="Feeling Lucky!" id="luck_button" name="luck_button">
+                </label>
+            </div>
+            <p>Google offered in: Arabic</p>
+        </div>
+        
+
+
+
+        <footer id="footer">
+            <div id="footer-left">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+
+                <a href="#" id="statement">Carbon Neutral Since 2007</a>
+            <div id="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
         </footer>
 
 
